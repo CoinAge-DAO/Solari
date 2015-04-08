@@ -164,8 +164,8 @@
         <translation>Confirmer le chiffrement du portefeuille</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Avertissement : si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS BITCOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Avertissement : si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS SOLARIS&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,7 +188,7 @@
         <translation>Saisissez une nouvelle phrase de passe pour le portefeuille.&lt;br/&gt;Veuillez utiliser une phrase composée de &lt;b&gt;dix caractères aléatoires ou plus&lt;/b&gt;, ou bien de &lt;b&gt;huit mots ou plus&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin va à présent se fermer pour terminer le chiffrement. N'oubliez pas que le chiffrement de votre portefeuille n'est pas une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
@@ -395,8 +395,8 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Demander des paiements (génère des codes QR et des URIs bitcoin:)</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>Demander des paiements (génère des codes QR et des URIs solari:)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Afficher la liste d'adresses de réception et d'étiquettes utilisées</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Ouvrir un URI bitcoin: ou une demande de paiement</translation>
+        <source>Open a solari: URI or payment request</source>
+        <translation>Ouvrir un URI solari: ou une demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1253,8 +1253,8 @@ Adresse : %4
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer bitcoin :</translation>
+        <source>Cannot start solari: click-to-pay handler</source>
+        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer solari :</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1869,7 +1869,7 @@ Adresse : %4
         <translation>total au moins</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for solari transactions than the network can process.</source>
         <translation>Il est correct de payer les frais minimum tant que le volume transactionnel est inférieur à l'espace dans les blocs. Mais soyez conscient que ceci pourrait résulter en une transaction n'étant jamais confirmée une fois qu'il y aura plus de transactions que le réseau ne pourra en traiter.</translation>
     </message>
     <message>
@@ -2108,7 +2108,7 @@ Adresse : %4
         <translation>Saisir une étiquette pour cette adresse afin de l'ajouter à la liste d'adresses utilisées</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation>Un message qui était joint à l'URI Bitcoin et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Bitcoin.</translation>
     </message>
     <message>
@@ -2765,7 +2765,7 @@ Adresse : %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Options :</translation>
@@ -2802,7 +2802,7 @@ Adresse : %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2813,7 +2813,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s, vous devez définir un mot de passe rpc dans le fichier de configuration : 
 %s
 Il vous est conseillé d'utiliser le mot de passe aléatoire suivant :
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (vous n'avez pas besoin de retenir ce mot de passe)
 Le nom d'utilisateur et le mot de passe NE DOIVENT PAS être identiques.
@@ -3079,12 +3079,12 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
         <translation>Exécuter une commande lorsqu'une alerte pertinente est reçue ou si nous voyons une bifurcation vraiment étendue (%s dans la commande est remplacé par le message)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Les frais (en BTC/Ko) inférieurs à ce seuil sont considérés comme étant nuls pour le relayage (par défaut : %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Les frais (en SRI/Ko) inférieurs à ce seuil sont considérés comme étant nuls pour le relayage (par défaut : %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Les frais (en BTC/Ko) inférieurs à ce seuil sont considérés comme étant nuls pour la création de transactions (par défaut : %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Les frais (en SRI/Ko) inférieurs à ce seuil sont considérés comme étant nuls pour la création de transactions (par défaut : %s)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3139,8 +3139,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
         <translation>Erreur : argument non pris en charge -tor trouvé, utiliser -onion.</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Les frais (en BTC/ko) à ajouter aux transactions que vous envoyez (par défaut : %s)</translation>
+        <source>Fee (in SRI/kB) to add to transactions you send (default: %s)</source>
+        <translation>Les frais (en SRI/ko) à ajouter aux transactions que vous envoyez (par défaut : %s)</translation>
     </message>
     <message>
         <source>Information</source>

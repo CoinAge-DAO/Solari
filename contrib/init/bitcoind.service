@@ -3,13 +3,13 @@ Description=Bitcoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=bitcoin
-Group=bitcoin
+User=solari
+Group=solari
 
 Type=forking
-PIDFile=/var/lib/bitcoind/bitcoind.pid
-ExecStart=/usr/bin/bitcoind -daemon -pid=/var/lib/bitcoind/bitcoind.pid \
--conf=/etc/bitcoin/bitcoin.conf -datadir=/var/lib/bitcoind -disablewallet
+PIDFile=/var/lib/solarid/solarid.pid
+ExecStart=/usr/bin/solarid -daemon -pid=/var/lib/solarid/solarid.pid \
+-conf=/etc/solari/solari.conf -datadir=/var/lib/solarid -disablewallet
 
 Restart=always
 PrivateTmp=true

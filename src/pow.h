@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_POW_H
-#define BITCOIN_POW_H
+#ifndef SOLARI_POW_H
+#define SOLARI_POW_H
 
 #include "consensus/params.h"
 
@@ -22,4 +22,4 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
 bool CheckProofOfWork(uint256 hash, unsigned int nBits, const Consensus::Params&);
 arith_uint256 GetBlockProof(const CBlockIndex& block);
 
-#endif // BITCOIN_POW_H
+#endif // SOLARI_POW_H

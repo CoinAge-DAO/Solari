@@ -160,8 +160,8 @@
         <translation>Confirmă criptarea portofelului</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE BITCOIN ACUMULATĂ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE SOLARI ACUMULATĂ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,7 +180,7 @@
         <translation>Portofel criptat</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin se va închide acum pentru a termina procesul de criptare. Ține minte că criptarea portofelului nu te poate proteja în totalitate de furtul monedelor de către programe dăunătoare care îți infectează calculatorul.</translation>
     </message>
     <message>
@@ -379,8 +379,8 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Cereti plati (genereaza coduri QR si bitcoin-uri: URls)</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>Cereti plati (genereaza coduri QR si solari-uri: URls)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -395,8 +395,8 @@
         <translation>Aratati lista de adrese pentru primire si etichete </translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Deschideti un bitcoin: o adresa URI sau o cerere de plata</translation>
+        <source>Open a solari: URI or payment request</source>
+        <translation>Deschideti un solari: o adresa URI sau o cerere de plata</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -729,7 +729,7 @@ Adresa: %4
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Adresa introdusă "%1" nu este o adresă bitcoin validă.</translation>
+        <translation>Adresa introdusă "%1" nu este o adresă solari validă.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -964,7 +964,7 @@ Adresa: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de bitcoin.</translation>
+        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de solari.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1004,7 +1004,7 @@ Adresa: %4
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa bitcoin pe care a-ti specificat-o este invalida</translation>
+        <translation>Adresa solari pe care a-ti specificat-o este invalida</translation>
     </message>
 </context>
 <context>
@@ -1073,8 +1073,8 @@ Adresa: %4
         <translation>Eroare la cererea de plată</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nu poate porni bitcoin: regula clic-pentru-plata</translation>
+        <source>Cannot start solari: click-to-pay handler</source>
+        <translation>Nu poate porni solari: regula clic-pentru-plata</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -1246,7 +1246,7 @@ Adresa: %4
     </message>
     <message>
         <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Bun venit la consola bitcoin RPC</translation>
+        <translation>Bun venit la consola solari RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2245,7 +2245,7 @@ Adresa: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Setări:</translation>
@@ -2282,7 +2282,7 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2293,7 +2293,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s trebuie sa setezi o parola rpc in fisierul de configurare
 %s
 Este recomandat sa folosesti aceasta parola aleatorie:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 parola rpc=%s
 (nu este necesar ca sa iti amintesti aceasta parola)
 Numele de utilizator si parola NU trebuie sa fie la fel.

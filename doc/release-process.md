@@ -2,7 +2,7 @@ Release Process
 ====================
 
 * update translations (ping wumpus, Diapolo or tcatm on IRC)
-* see https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md#syncing-with-transifex
+* see https://github.com/solari/solari/blob/master/doc/translation_process.md#syncing-with-transifex
 
 * * *
 
@@ -29,11 +29,11 @@ Release Process
 
 ###perform gitian builds
 
- From a directory containing the bitcoin source, gitian-builder and gitian.sigs
+ From a directory containing the solari source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./bitcoin
+	pushd ./solari
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -54,29 +54,29 @@ Release Process
 
   By default, gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
-	make -C ../bitcoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../solari/depends download SOURCES_PATH=`pwd`/cache/common
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
 ###Build Bitcoin Core for Linux, Windows, and OS X:
   
-	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/bitcoin-*.tar.gz build/out/src/bitcoin-*.tar.gz ../
-	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/bitcoin-*.zip build/out/bitcoin-*.exe ../
-	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/bitcoin-*-unsigned.tar.gz inputs/bitcoin-osx-unsigned.tar.gz
-	mv build/out/bitcoin-*.tar.gz build/out/bitcoin-*.dmg ../
+	./bin/gbuild --commit solari=v${VERSION} ../solari/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../solari/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/solari-*.tar.gz build/out/src/solari-*.tar.gz ../
+	./bin/gbuild --commit solari=v${VERSION} ../solari/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../solari/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/solari-*.zip build/out/solari-*.exe ../
+	./bin/gbuild --commit solari=v${VERSION} ../solari/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../solari/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/solari-*-unsigned.tar.gz inputs/solari-osx-unsigned.tar.gz
+	mv build/out/solari-*.tar.gz build/out/solari-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (bitcoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit binaries dist tarballs (bitcoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit installers and dist zips (bitcoin-${VERSION}-win[32|64]-setup.exe, bitcoin-${VERSION}-win[32|64].zip)
-  4. OSX unsigned installer (bitcoin-${VERSION}-osx-unsigned.dmg)
+  1. source tarball (solari-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (solari-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (solari-${VERSION}-win[32|64]-setup.exe, solari-${VERSION}-win[32|64].zip)
+  4. OSX unsigned installer (solari-${VERSION}-osx-unsigned.dmg)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your gitian key)/
 
 ###Next steps:
@@ -100,9 +100,9 @@ Commit your signature to gitian.sigs:
 	pushd ./gitian-builder
 	# Fetch the signature as instructed by Gavin
 	cp signature.tar.gz inputs/
-	./bin/gbuild -i ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/bitcoin-osx-signed.dmg ../bitcoin-${VERSION}-osx.dmg
+	./bin/gbuild -i ../solari/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../solari/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/solari-osx-signed.dmg ../solari-${VERSION}-osx.dmg
 	popd
 
 Commit your signature for the signed OSX binary:
@@ -132,28 +132,28 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the bitcoin.org server
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the solari.org server
 
-- Update bitcoin.org version
+- Update solari.org version
 
   - Make a pull request to add a file named `YYYY-MM-DD-vX.Y.Z.md` with the release notes
-  to https://github.com/bitcoin/bitcoin.org/tree/master/_releases
-   ([Example for 0.9.2.1](https://raw.githubusercontent.com/bitcoin/bitcoin.org/master/_releases/2014-06-19-v0.9.2.1.md)).
+  to https://github.com/solari/solari.org/tree/master/_releases
+   ([Example for 0.9.2.1](https://raw.githubusercontent.com/solari/solari.org/master/_releases/2014-06-19-v0.9.2.1.md)).
 
   - After the pull request is merged, the website will automatically show the newest version, as well
     as update the OS download links. Ping Saivann in case anything goes wrong
 
 - Announce the release:
 
-  - Release sticky on bitcointalk: https://bitcointalk.org/index.php?board=1.0
+  - Release sticky on solaritalk: https://solaritalk.org/index.php?board=1.0
 
   - Bitcoin-development mailing list
 
-  - Update title of #bitcoin on Freenode IRC
+  - Update title of #solari on Freenode IRC
 
   - Optionally reddit /r/Bitcoin, ... but this will usually sort out itself
 
-- Notify BlueMatt so that he can start building [https://launchpad.net/~bitcoin/+archive/ubuntu/bitcoin](the PPAs)
+- Notify BlueMatt so that he can start building [https://launchpad.net/~solari/+archive/ubuntu/solari](the PPAs)
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

@@ -164,7 +164,7 @@
         <translation>אישור הצפנת הארנק</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
         <translation>אזהרה: הצפנת הארנק ואיבוד מילת הצופן עשויה להוביל &lt;b&gt;לאיבוד כל הביטקוינים שלך&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -188,7 +188,7 @@
         <translation>נא להזין את מילת הצופן החדשה לארנק.&lt;br/&gt;כדאי להשתמש במילת צופן המורכבת מ&lt;b&gt;עשרה תווים אקראיים ומעלה&lt;/b&gt;, או &lt;b&gt;שמונה מילים ומעלה&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
         <translation>ביטקוין ייסגר כעת כדי להשלים את תהליך ההצפנה. עליך לזכור שהצפנת הארנק שלך אינה מגנה באופן מלא על הביטקוינים שלך מתכניות זדוניות המושתלות על המחשב.</translation>
     </message>
     <message>
@@ -395,8 +395,8 @@
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :bitcoin)</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :solari)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -411,7 +411,7 @@
         <translation>הצגת רשימת הכתובות והתוויות הנמצאות בשימוש</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a solari: URI or payment request</source>
         <translation>פתיחת ביטקוין: כתובת משאב או בקשת תשלום</translation>
     </message>
     <message>
@@ -1204,7 +1204,7 @@ Address: %4
         <translation>שגיאה בבקשת תשלום</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start solari: click-to-pay handler</source>
         <translation>לא ניתן להתחיל את ביטקוין: טיפול בלחיצה–לתשלום </translation>
     </message>
     <message>
@@ -1975,7 +1975,7 @@ Address: %4
         <translation>יש להזין תווית עבור כתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation>הודעה שצורפה לביטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת הביטקוין.</translation>
     </message>
     <message>
@@ -2624,7 +2624,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>אפשרויות:</translation>
@@ -2661,7 +2661,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2672,7 +2672,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s, עליך להגדיר את ססמת ה־RPC בקובץ התצורה:
  %s
 מומלץ להשתמש בססמה האקראית הבאה:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (אין צורך לזכור את הססמה)
 אסור ששם המשתמש והססמה יהיו זהים.
@@ -2878,8 +2878,8 @@ rpcpassword=%s
         <translation>הרץ פקודה כאשר ההתראה הרלוונטית מתקבלת או כשאנחנו עדים לפיצול ארוך מאוד (%s בשורת הפקודה יוחלף ע"י ההודעה)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>העמלות (ב־BTC/ק״ב) הנמוכות מהסכום הזה נחשבות לעמלות אפס ליצירת העברה (בררת מחדל: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>העמלות (ב־SRI/ק״ב) הנמוכות מהסכום הזה נחשבות לעמלות אפס ליצירת העברה (בררת מחדל: %s)</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
@@ -2910,8 +2910,8 @@ rpcpassword=%s
         <translation>שגיאה: נמצא ארגומנט בלתי נתמך ‎-tor, יש להשתמש ב־‎-onion.</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>עמלה (ב־BTC/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
+        <source>Fee (in SRI/kB) to add to transactions you send (default: %s)</source>
+        <translation>עמלה (ב־SRI/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
     </message>
     <message>
         <source>Information</source>

@@ -6,7 +6,7 @@ GZIP_ENV="-9n"
 
 if BUILD_SOLARI_LIBS
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = libbitcoinconsensus.pc
+pkgconfig_DATA = libsolariconsensus.pc
 endif
 
 SOLARID_BIN=$(top_builddir)/src/solarid$(EXEEXT)

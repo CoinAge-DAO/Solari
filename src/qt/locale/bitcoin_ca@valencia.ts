@@ -164,8 +164,8 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES SOLARIS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Introduïu la contrasenya nova al moneder.&lt;br/&gt;Utilitzeu una contrasenya de &lt;b&gt;deu o més caràcters aleatoris&lt;/b&gt;, o &lt;b&gt;vuit o més paraules&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin es tancarà ara per acabar el procés d'encriptació. Recordeu que encriptar el moneder no protegeix completament els bitcoins de ser robats per programari maliciós instal·lat a l'ordinador.</translation>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin es tancarà ara per acabar el procés d'encriptació. Recordeu que encriptar el moneder no protegeix completament els solaris de ser robats per programari maliciós instal·lat a l'ordinador.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -312,7 +312,7 @@
     </message>
     <message>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Modifica les opcions de configuració per bitcoin</translation>
+        <translation>Modifica les opcions de configuració per solari</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -395,8 +395,8 @@
         <translation>Nucli de Bitcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i bitcoin: URI)</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>Sol·licita pagaments (genera codis QR i solari: URI)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Mostra la llista d'adreces de recepció i etiquetes utilitzades</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Obri una bitcoin: sol·licitud d'URI o pagament</translation>
+        <source>Open a solari: URI or payment request</source>
+        <translation>Obri una solari: sol·licitud d'URI o pagament</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1193,8 +1193,8 @@ Address: %4
         <translation>Error en la sol·licitud de pagament</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>No es pot iniciar bitcoin: gestor clica-per-pagar</translation>
+        <source>Cannot start solari: click-to-pay handler</source>
+        <translation>No es pot iniciar solari: gestor clica-per-pagar</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1964,8 +1964,8 @@ Address: %4
         <translation>Introduïu una etiqueta per a esta adreça per afegir-la a la llista d'adreces utilitzades</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Un missatge que s'ha adjuntat al bitcoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Bitcoin.</translation>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>Un missatge que s'ha adjuntat al solari: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Bitcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2597,7 +2597,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcions:</translation>
@@ -2634,7 +2634,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2644,7 +2644,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
 </source>
         <translation>%s, heu d'establir una contrasenya RPC al fitxer de configuració: %s
 Es recomana que useu la següent contrasenya aleatòria:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (no necesiteu recordar esta contrasenya)
 El nom d'usuari i la contrasenya NO HAN de ser els mateixos.
@@ -2882,12 +2882,12 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Executa l'orde quan es reba un avís rellevant o veiem una forquilla molt llarga (%s en cmd és reemplaçat per un missatge)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comissions (en BTC/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comissions (en SRI/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comissions (en BTC/Kb) inferiors a això es consideren de comissió zero per a la creació de la transacció (per defecte: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comissions (en SRI/Kb) inferiors a això es consideren de comissió zero per a la creació de la transacció (per defecte: %s)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
@@ -2934,8 +2934,8 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Error: s'ha trobat un argument -tor no acceptat. Feu servir -onion.</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comissió en (BTC/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
+        <source>Fee (in SRI/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comissió en (SRI/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
     </message>
     <message>
         <source>Information</source>

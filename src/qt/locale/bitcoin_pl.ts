@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wybierz adres żeby wysłać bitcoins</translation>
+        <translation>Wybierz adres żeby wysłać solaris</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
@@ -71,7 +71,7 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To twoje adresy bitcoin do odbierania płatności. Zaleca się używanie nowych adresów odbiorczych dla każdej tranzakcji.</translation>
+        <translation>To twoje adresy solari do odbierania płatności. Zaleca się używanie nowych adresów odbiorczych dla każdej tranzakcji.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -164,8 +164,8 @@
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE BITCOIN'Y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE SOLARI'Y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +184,8 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Program Bitcoin zamknie się aby dokończyć proces szyfrowania. Pamiętaj, że szyfrowanie portfela nie zabezpiecza w pełni Twoich bitcoinów przed kradzieżą przez wirusy lub trojany mogące zainfekować Twój komputer.</translation>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
+        <translation>Program Bitcoin zamknie się aby dokończyć proces szyfrowania. Pamiętaj, że szyfrowanie portfela nie zabezpiecza w pełni Twoich solariów przed kradzieżą przez wirusy lub trojany mogące zainfekować Twój komputer.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -308,7 +308,7 @@
     </message>
     <message>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Zmienia opcje konfiguracji bitcoina</translation>
+        <translation>Zmienia opcje konfiguracji solaria</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -388,11 +388,11 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Rdzeń BitCoin</translation>
+        <translation>Rdzeń Solari</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Żądaj płatności (generuje kod QR oraz bitcoin URI)</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>Żądaj płatności (generuje kod QR oraz solari URI)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -791,7 +791,7 @@ Adres: %4
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Rdzeń BitCoin</translation>
+        <translation>Rdzeń Solari</translation>
     </message>
     <message>
         <source>version</source>
@@ -866,7 +866,7 @@ Adres: %4
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Rdzeń BitCoin</translation>
+        <translation>Rdzeń Solari</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1067,7 +1067,7 @@ Adres: %4
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlana informacja może być nieaktualna. Twój portfel synchronizuje się automatycznie z siecią bitcoin, zaraz po tym jak uzyskano połączenie, ale proces ten nie został jeszcze ukończony.</translation>
+        <translation>Wyświetlana informacja może być nieaktualna. Twój portfel synchronizuje się automatycznie z siecią solari, zaraz po tym jak uzyskano połączenie, ale proces ten nie został jeszcze ukończony.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1125,8 +1125,8 @@ Adres: %4
         <translation>Błąd żądania płatności</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nie można rozpocząć bitcoin: kliknij-by-zapłacić opiekunowi</translation>
+        <source>Cannot start solari: click-to-pay handler</source>
+        <translation>Nie można rozpocząć solari: kliknij-by-zapłacić opiekunowi</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1858,7 +1858,7 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Rdzeń BitCoin</translation>
+        <translation>Rdzeń Solari</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2301,7 +2301,7 @@ Adres: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcje:</translation>
@@ -2338,7 +2338,7 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2349,7 +2349,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s, musisz ustawić rpcpassword w pliku konfiguracyjnym:⏎
 %s⏎
 Zalecane jest użycie losowego hasła:⏎
-rpcuser=bitcoinrpc⏎
+rpcuser=solarirpc⏎
 rpcpassword=%s⏎
 (nie musisz pamiętać tego hasła)⏎
 Użytkownik i hasło nie mogą być takie same.⏎
@@ -2363,7 +2363,7 @@ na przykład: alertnotify=echo %%s | mail -s "Alarm Bitcoin" admin@foo.com⏎</t
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Błąd: transakcja została odrzucona. Może się to zdarzyć, gdy monety z Twojego portfela zostały już wydane, na przykład gdy używałeś kopii wallet.dat i bitcoiny które tam wydałeś nie zostały jeszcze odjęte z portfela z którego teraz korzystasz.</translation>
+        <translation>Błąd: transakcja została odrzucona. Może się to zdarzyć, gdy monety z Twojego portfela zostały już wydane, na przykład gdy używałeś kopii wallet.dat i solariy które tam wydałeś nie zostały jeszcze odjęte z portfela z którego teraz korzystasz.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>

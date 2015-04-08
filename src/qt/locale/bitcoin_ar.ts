@@ -160,8 +160,8 @@
         <translation>تأكيد تشفير المحفظة</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات BITCOINS الخاصة بك.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات SOLARIS الخاصة بك.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,7 +184,7 @@
         <translation>أدخل عبارة مرور جديدة إلى المحفظة. الرجاء استخدام عبارة مرور تتكون من10 حروف عشوائية على الاقل, أو أكثر من 7 كلمات</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
         <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
     </message>
     <message>
@@ -300,7 +300,7 @@
     </message>
     <message>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>تعديل إعدادات bitcoin</translation>
+        <translation>تعديل إعدادات solari</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -368,7 +368,7 @@
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>حول bitcoin core</translation>
+        <translation>حول solari core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -1653,7 +1653,7 @@
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>خيارات: </translation>

@@ -164,8 +164,8 @@
         <translation>Bekreft kryptering av lommebok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE SOLARIS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Oppgi adgangsfrasen til lommeboken.&lt;br/&gt;Vennligst bruk en adgangsfrase med &lt;b&gt;ti eller flere tilfeldige tegn&lt;/b&gt;, eller &lt;b&gt;åtte eller flere ord&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine bitcoins fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine solaris fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -395,8 +395,8 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Forespør betalinger (genererer QR-koder og bitcoin: URIer)</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>Forespør betalinger (genererer QR-koder og solari: URIer)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -411,7 +411,7 @@
         <translation>Vis listen over bruke mottaksadresser og merkelapper</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a solari: URI or payment request</source>
         <translation>Åpne en Bitcoin: URI eller betalingsetterspørring</translation>
     </message>
     <message>
@@ -1104,7 +1104,7 @@ Adresse: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av bitcoins.</translation>
+        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av solaris.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1261,7 +1261,7 @@ Adresse: %4
         <translation>Betalingsetterspørringsfeil</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start solari: click-to-pay handler</source>
         <translation>Kan ikke starte Bitcoin: klikk-og-betal håndterer</translation>
     </message>
     <message>
@@ -1877,7 +1877,7 @@ Adresse: %4
         <translation>minstebeløp</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for solari transactions than the network can process.</source>
         <translation>Betaling av bare minimumsavgiften går helt fint så lenge det er mindre transaksjonsvolum enn plass i blokkene. Men vær klar over at dette kan ende opp i en transaksjon som aldri blir bekreftet når det er mer etterspørsel etter Bitcoin-transaksjoner enn nettverket kan behandle.</translation>
     </message>
     <message>
@@ -1950,7 +1950,7 @@ Adresse: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bekreft sending av bitcoins</translation>
+        <translation>Bekreft sending av solaris</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2116,8 +2116,8 @@ Adresse: %4
         <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>En melding som var tilknyttet bitcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Bitcoin-nettverket.</translation>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>En melding som var tilknyttet solarien: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Bitcoin-nettverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2416,7 +2416,7 @@ Adresse: %4
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererte bitcoins må modnes %1 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet på nettverket for å bli lagt til i kjeden av blokker. Hvis den ikke kommer med i kjeden vil den endre seg til "ikke akseptert" og pengene vil ikke kunne brukes. Dette vil noen ganger skje hvis en annen node genererer en blokk noen sekunder i tid fra din egen.</translation>
+        <translation>Genererte solaris må modnes %1 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet på nettverket for å bli lagt til i kjeden av blokker. Hvis den ikke kommer med i kjeden vil den endre seg til "ikke akseptert" og pengene vil ikke kunne brukes. Dette vil noen ganger skje hvis en annen node genererer en blokk noen sekunder i tid fra din egen.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2773,7 +2773,7 @@ Adresse: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Innstillinger:</translation>
@@ -2810,7 +2810,7 @@ Adresse: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2821,7 +2821,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s, du må angi rpcpassord i konfigurasjonsfilen.
 %s
 Det anbefales at du bruker det følgende tilfeldige passordet:
-rpcbruker=bitcoinrpc
+rpcbruker=solarirpc
 rpcpassord=%s
 (du behøver ikke å huske passordet)
 Brukernavnet og passordet MÅ IKKE være like.
@@ -3086,12 +3086,12 @@ For eksempel: varselmelding=echo %%s | mail -s "Bitcoin Varsel" admin@foo.com</t
         <translation>Utfør kommando når et relevant varsel er mottatt eller vi ser en veldig lang gaffel (%s i kommando er erstattet med melding)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (i BTC/Kb) mindre enn dette anses som null gebyr for videresending (standardverdi: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (i SRI/Kb) mindre enn dette anses som null gebyr for videresending (standardverdi: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (i BTC/Kb) mindre enn dette anses som null gebyr for laging av transaksjoner (standardverdi: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (i SRI/Kb) mindre enn dette anses som null gebyr for laging av transaksjoner (standardverdi: %s)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3146,8 +3146,8 @@ For eksempel: varselmelding=echo %%s | mail -s "Bitcoin Varsel" admin@foo.com</t
         <translation>Feil: Argumentet -tor er ikke støttet, bruk -onion.</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i BTC/kB) for å legge til i transaksjoner du sender (standardverdi: %s)</translation>
+        <source>Fee (in SRI/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i SRI/kB) for å legge til i transaksjoner du sender (standardverdi: %s)</translation>
     </message>
     <message>
         <source>Information</source>

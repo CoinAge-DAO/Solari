@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_MINER_H
-#define BITCOIN_MINER_H
+#ifndef SOLARI_MINER_H
+#define SOLARI_MINER_H
 
 #include "primitives/block.h"
 
@@ -31,4 +31,4 @@ CBlockTemplate* CreateNewBlockWithKey(CReserveKey& reservekey);
 void IncrementExtraNonce(CBlock* pblock, CBlockIndex* pindexPrev, unsigned int& nExtraNonce);
 void UpdateTime(CBlockHeader* block, const CBlockIndex* pindexPrev);
 
-#endif // BITCOIN_MINER_H
+#endif // SOLARI_MINER_H

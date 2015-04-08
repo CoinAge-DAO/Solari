@@ -6,7 +6,7 @@
 
 #include "ui_helpmessagedialog.h"
 
-#include "bitcoingui.h"
+#include "solarigui.h"
 #include "clientmodel.h"
 #include "guiutil.h"
 
@@ -63,14 +63,14 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
     } else {
         setWindowTitle(tr("Command-line options"));
         QString header = tr("Usage:") + "\n" +
-            "  bitcoin-qt [" + tr("command-line options") + "]                     " + "\n";
+            "  solari-qt [" + tr("command-line options") + "]                     " + "\n";
         QTextCursor cursor(ui->helpMessage->document());
         cursor.insertText(version);
         cursor.insertBlock();
         cursor.insertText(header);
         cursor.insertBlock();
 
-        QString coreOptions = QString::fromStdString(HelpMessage(HMM_BITCOIN_QT));
+        QString coreOptions = QString::fromStdString(HelpMessage(HMM_SOLARI_QT));
         text = version + "\n" + header + "\n" + coreOptions;
 
         QTextTableFormat tf;

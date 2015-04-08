@@ -160,7 +160,7 @@
         <translation>지갑의 암호화를 확정</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
         <translation>경고: 만약 암호화된 지갑의 비밀번호를 잃어버릴 경우, 모든 비트코인들을 잃어버릴 수 있습니다!</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>지갑 암호화 완료</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
         <translation>암호화 처리 과정을 끝내기 위해 비트코인을 종료합니다. 지갑 암호화는 컴퓨터로의 멀웨어 감염으로 인한 비트코인 도난을 완전히 방지할 수 없음을 기억하세요.</translation>
     </message>
     <message>
@@ -387,7 +387,7 @@
         <translation>비트코인 코어</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
         <translation>지불 요청하기 (QR코드와 비트코인이 생성됩니다: URIs)</translation>
     </message>
     <message>
@@ -403,7 +403,7 @@
         <translation>한번 이상 사용된 받는 주소와 주소 제목의 목록을 보여줍니다.</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a solari: URI or payment request</source>
         <translation>비트코인: URI 또는 지불요청 열기</translation>
     </message>
     <message>
@@ -1129,7 +1129,7 @@ Address: %4
         <translation>지불 요청 애러</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start solari: click-to-pay handler</source>
         <translation>비트코인을 시작할 수 없습니다: 지급제어기를 클릭하시오</translation>
     </message>
     <message>
@@ -1704,7 +1704,7 @@ Address: %4
         <translation>사용된 주소 목록에 새 주소를 추가하기 위해 제목을 입력합니다. </translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation>비트코인에 첨부된 메시지: 참고용으로 거래와 함께 저장될 URI. 메모: 이 메시지는 비트코인 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
@@ -2309,7 +2309,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>옵션:</translation>

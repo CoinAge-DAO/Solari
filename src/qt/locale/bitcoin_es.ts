@@ -47,11 +47,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Escoja la dirección a la que enviar bitcoins</translation>
+        <translation>Escoja la dirección a la que enviar solaris</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Escoja la dirección de la que recibir bitcoins</translation>
+        <translation>Escoja la dirección de la que recibir solaris</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Bitcoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de enviar bitcoins.</translation>
+        <translation>Estas son sus direcciones Bitcoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de enviar solaris.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -164,8 +164,8 @@
         <translation>Confirmar cifrado del monedero</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS BITCOINS&lt;/b&gt;!"</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS SOLARIS&lt;/b&gt;!"</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Introduzca la nueva contraseña para el monedero.&lt;br/&gt;Utilice por favor una contraseña con &lt;b&gt;diez o más caracteres aleatorios&lt;/b&gt; o con &lt;b&gt;ocho o más palabras&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus bitcoins de robo por malware que infecte su sistema.</translation>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus solaris de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -308,7 +308,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar bitcoins a una dirección Bitcoin</translation>
+        <translation>Enviar solaris a una dirección Bitcoin</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin</source>
@@ -395,8 +395,8 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "bitcoin:")</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI "solari:")</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un identificador URI "bitcoin:" o una petición de pago</translation>
+        <source>Open a solari: URI or payment request</source>
+        <translation>Abrir un identificador URI "solari:" o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1104,7 +1104,7 @@ Dirección: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían bitcoins.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían solaris.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1261,8 +1261,8 @@ Dirección: %4
         <translation>Error en solicitud de pago</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>No se puede iniciar el gestor de identificadores "bitcoin:" de clic-para-pagar</translation>
+        <source>Cannot start solari: click-to-pay handler</source>
+        <translation>No se puede iniciar el gestor de identificadores "solari:" de clic-para-pagar</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1790,7 +1790,7 @@ Dirección: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar bitcoins</translation>
+        <translation>Enviar solaris</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1922,7 +1922,7 @@ Dirección: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirmar el envío de bitcoins</translation>
+        <translation>Confirmar el envío de solaris</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1990,7 +1990,7 @@ Dirección: %4
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>¡La transacción fue rechazada! Esto puede haber ocurrido si alguno de los bitcoins de su monedero ya estaba gastado o si ha usado una copia de wallet.dat y los bitcoins estaban gastados en la copia pero no se habían marcado como gastados aqui.</translation>
+        <translation>¡La transacción fue rechazada! Esto puede haber ocurrido si alguno de los solaris de su monedero ya estaba gastado o si ha usado una copia de wallet.dat y los solaris estaban gastados en la copia pero no se habían marcado como gastados aqui.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
@@ -2084,8 +2084,8 @@ Dirección: %4
         <translation>Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Un mensaje que se adjuntó a la bitcoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Bitcoin.</translation>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>Un mensaje que se adjuntó a la solari: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Bitcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2384,7 +2384,7 @@ Dirección: %4
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Los bitcoins generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
+        <translation>Los solaris generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2702,7 +2702,7 @@ Dirección: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar bitcoins</translation>
+        <translation>Enviar solaris</translation>
     </message>
 </context>
 <context>
@@ -2741,7 +2741,7 @@ Dirección: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:
@@ -2782,7 +2782,7 @@ Dirección: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2793,7 +2793,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s, debe establecer un valor rpcpassword en el archivo de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (no es necesario recordar esta contraseña)
 El nombre de usuario y la contraseña DEBEN NO ser iguales.
@@ -2820,7 +2820,7 @@ Por ejemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>¡Error: se ha rechazado la transacción! Esto puede ocurrir si ya se han gastado algunos de los bitcoins del monedero, como ocurriría si hubiera hecho una copia de wallet.dat y se hubieran gastado bitcoins a partir de la copia, con lo que no se habrían marcado aquí como gastados.</translation>
+        <translation>¡Error: se ha rechazado la transacción! Esto puede ocurrir si ya se han gastado algunos de los solaris del monedero, como ocurriría si hubiera hecho una copia de wallet.dat y se hubieran gastado solaris a partir de la copia, con lo que no se habrían marcado aquí como gastados.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
@@ -3059,12 +3059,12 @@ Por ejemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Ejecutar un comando cuando se reciba una alerta importante o cuando veamos un fork demasiado largo (%s en cmd se reemplazará por el mensaje)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Tarifas (en BTC/Kb) más pequeños que esto se consideran cero cuota de reinstalación (por defecto: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Tarifas (en SRI/Kb) más pequeños que esto se consideran cero cuota de reinstalación (por defecto: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Tarifas (en BTC/Kb) más pequeños que esto se consideran cero cuota para la creación de la transacción (por defecto: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Tarifas (en SRI/Kb) más pequeños que esto se consideran cero cuota para la creación de la transacción (por defecto: %s)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
@@ -3099,8 +3099,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Bitcoin Core</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Cuota (in BTC/kB) para añadir a las transacciones que envíes (por defecto: %s)</translation>
+        <source>Fee (in SRI/kB) to add to transactions you send (default: %s)</source>
+        <translation>Cuota (in SRI/kB) para añadir a las transacciones que envíes (por defecto: %s)</translation>
     </message>
     <message>
         <source>Information</source>

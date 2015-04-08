@@ -164,7 +164,7 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
         <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的位元幣了&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -188,7 +188,7 @@
         <translation>輸入錢包的新密碼。&lt;br/&gt;密碼請用&lt;b&gt;10 個以上的字元&lt;/b&gt;，或是&lt;b&gt;8 個以上的字詞&lt;/b&gt;。</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
         <translation>位元幣軟體現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取位元幣。</translation>
     </message>
     <message>
@@ -395,7 +395,7 @@
         <translation>位元幣核心</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
         <translation>要求付款(產生 QR Code 和位元幣付款協議的 URI)</translation>
     </message>
     <message>
@@ -411,8 +411,8 @@
         <translation>顯示已使用過的收款位址和標記的清單</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>開啓 bitcoin 協議的 URI 或付款要求</translation>
+        <source>Open a solari: URI or payment request</source>
+        <translation>開啓 solari 協議的 URI 或付款要求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1253,8 +1253,8 @@ Address: %4
         <translation>要求付款時發生錯誤</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>沒辦法啟動 bitcoin 協議的按就付處理器</translation>
+        <source>Cannot start solari: click-to-pay handler</source>
+        <translation>沒辦法啟動 solari 協議的按就付處理器</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -2056,7 +2056,7 @@ Address: %4
         <translation>請輸入這個位址的標記，來把它加進去已使用過位址的清單。</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation>附加在位元幣付款協議 URI 中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到位元幣網路上。</translation>
     </message>
     <message>
@@ -2713,7 +2713,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>選項:</translation>
@@ -2751,7 +2751,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2762,7 +2762,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s, 你必須要在以下設定檔中設定 RPC 密碼(rpcpassword):
 %s
 建議你使用以下隨機產生的密碼:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (你不用記住這個密碼)
 使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同！
@@ -3024,11 +3024,11 @@ alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
         <translation>當收到相關警示，或發現相當長的分支時，所要執行的指令(指令中的 %s 會被取代成警示訊息)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation>當處理轉發的交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation>當製造交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
     </message>
     <message>
@@ -3084,7 +3084,7 @@ alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
         <translation>錯誤: 找到不再支援的 -tor 參數，請改用 -onion 參數。</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in SRI/kB) to add to transactions you send (default: %s)</source>
         <translation>交易付款時每千位元組(kB)的交易手續費 (預設值: %s)</translation>
     </message>
     <message>

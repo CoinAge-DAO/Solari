@@ -160,8 +160,8 @@
         <translation>Potrdi šifriranje denarnice</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Opozorilo: V primeru izgube gesla kriptirane denarnice, boš &lt;b&gt;IZGUBIL VSE SVOJE BITCOINE&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Opozorilo: V primeru izgube gesla kriptirane denarnice, boš &lt;b&gt;IZGUBIL VSE SVOJE SOLARIE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,7 +176,7 @@
         <translation>Denarnica šifrirana</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin se bo zaprl, da bi dokončal proces šifriranja. Zapomnite si, da šifriranje vaše denarnice ne more popolnoma zaščititi pred krajami zlonamernih programov, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
     <message>
@@ -383,12 +383,12 @@
         <translation>Prikaži seznam uporabljenih sprejemnih naslovov in oznak</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a solari: URI or payment request</source>
         <translation>Odpri Bitcoin: URI ali zahteva o plačilu</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna povezava v bitcoin omrežje</numerusform><numerusform>%n aktivni povezavi v bitcoin omrežje</numerusform><numerusform>%n aktivnih povezav v bitcoin omrežje</numerusform><numerusform>%n aktivnih povezav v bitcoin omrežje</numerusform></translation>
+        <translation><numerusform>%n aktivna povezava v solari omrežje</numerusform><numerusform>%n aktivni povezavi v solari omrežje</numerusform><numerusform>%n aktivnih povezav v solari omrežje</numerusform><numerusform>%n aktivnih povezav v solari omrežje</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -2053,7 +2053,7 @@ Naslov: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Možnosti:</translation>

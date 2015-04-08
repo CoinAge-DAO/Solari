@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_CHAINPARAMS_H
-#define BITCOIN_CHAINPARAMS_H
+#ifndef SOLARI_CHAINPARAMS_H
+#define SOLARI_CHAINPARAMS_H
 
 #include "arith_uint256.h"
 #include "chainparamsbase.h"
@@ -116,4 +116,4 @@ void SelectParams(CBaseChainParams::Network network);
  */
 bool SelectParamsFromCommandLine();
 
-#endif // BITCOIN_CHAINPARAMS_H
+#endif // SOLARI_CHAINPARAMS_H

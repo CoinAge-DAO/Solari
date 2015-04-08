@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_WALLETVIEW_H
-#define BITCOIN_QT_WALLETVIEW_H
+#ifndef SOLARI_QT_WALLETVIEW_H
+#define SOLARI_QT_WALLETVIEW_H
 
 #include "amount.h"
 
@@ -43,7 +43,7 @@ public:
     */
     void setClientModel(ClientModel *clientModel);
     /** Set the wallet model.
-        The wallet model represents a bitcoin wallet, and offers access to the list of transactions, address book and sending
+        The wallet model represents a solari wallet, and offers access to the list of transactions, address book and sending
         functionality.
     */
     void setWalletModel(WalletModel *walletModel);
@@ -116,4 +116,4 @@ signals:
     void incomingTransaction(const QString& date, int unit, const CAmount& amount, const QString& type, const QString& address);
 };
 
-#endif // BITCOIN_QT_WALLETVIEW_H
+#endif // SOLARI_QT_WALLETVIEW_H

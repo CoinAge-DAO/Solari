@@ -164,8 +164,8 @@
         <translation>Confirmar criptografia da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus BITCOINS!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Atenção: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus SOLARIS!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Digite a nova senha da carteira. &lt;br/&gt;Por favor utilize uma senha com &lt;b&gt;dez ou mais caracteres aleartórios&lt;/b&gt;, ou &lt;b&gt;oito ou mais palavras&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>O Bitcoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas bitcoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
+        <translation>O Bitcoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas solaris de serem roubadas por malwares que tenham infectado o seu computador.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -308,11 +308,11 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar moedas para um endereço bitcoin</translation>
+        <translation>Enviar moedas para um endereço solari</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Modificar opções de configuração para bitcoin</translation>
+        <translation>Modificar opções de configuração para solari</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -395,8 +395,8 @@
         <translation>Núcleo Bitcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitações de pagamentos (gera códigos QR e bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>Solicitações de pagamentos (gera códigos QR e solari: URIs)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Mostrar a lista de endereços de recebimento usados ​​e rótulos</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir um bitcoin: URI ou cobrança</translation>
+        <source>Open a solari: URI or payment request</source>
+        <translation>Abrir um solari: URI ou cobrança</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1079,7 +1079,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar bitcoins.</translation>
+        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar solaris.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,8 +1212,8 @@ Endereço: %4</translation>
         <translation>Erro no pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar bitcoin: manipulador clique-para-pagar</translation>
+        <source>Cannot start solari: click-to-pay handler</source>
+        <translation>Não foi possível iniciar solari: manipulador clique-para-pagar</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1849,7 +1849,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>A transação foi rejeitada! Isso pode acontecer se alguns bitcoins na sua carteira já foram gastos em outro local, por exemplo se você tiver uma cópia do wallet.dat e os bitcoins tiverem sido gastos na cópia mas não marcados como gastos aqui ainda.</translation>
+        <translation>A transação foi rejeitada! Isso pode acontecer se alguns solaris na sua carteira já foram gastos em outro local, por exemplo se você tiver uma cópia do wallet.dat e os solaris tiverem sido gastos na cópia mas não marcados como gastos aqui ainda.</translation>
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
@@ -1935,8 +1935,8 @@ Endereço: %4</translation>
         <translation>Digite um rótulo para este endereço para adicioná-lo no catálogo</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>A mensagem que foi anexada ao bitcoin: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Bitcoin.</translation>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>A mensagem que foi anexada ao solari: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Bitcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2584,7 +2584,7 @@ Endereço: %4</translation>
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Opções:</translation>
@@ -2621,7 +2621,7 @@ Endereço: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2632,7 +2632,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s, você deve especificar uma senha rpcpassword no arquivo de configuração:⏎
 %s⏎
 É recomendado que você use a seguinte senha aleatória:⏎
-rpcuser=bitcoinrpc⏎
+rpcuser=solarirpc⏎
 rpcpassword=%s⏎
 (você não precisa lembrar esta senha)⏎
 O nome de usuário e a senha NÃO PODEM ser os mesmos.⏎
@@ -2651,7 +2651,7 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos bitcoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns bitcoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos solaris de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns solaris foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
@@ -2854,12 +2854,12 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
         <translation>Executa o comando quando um alerta relevante é recebido ou vemos uma longa segregação (%s em cmd é substituído pela mensagem)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em BTC/Kb) menores do que este valor são consideradas inexistentes para divulgação (padrão: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em SRI/Kb) menores do que este valor são consideradas inexistentes para divulgação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em BTC/Kb) menores do que este valor são consideradas inexistentes para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in SRI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em SRI/Kb) menores do que este valor são consideradas inexistentes para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -2882,8 +2882,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
         <translation>Impossível interpretar o valor -rpcbind %s como um endereço da rede</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em BTC/kB) a adicionar nas transações que você envia (padrão: %s)</translation>
+        <source>Fee (in SRI/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em SRI/kB) a adicionar nas transações que você envia (padrão: %s)</translation>
     </message>
     <message>
         <source>Information</source>

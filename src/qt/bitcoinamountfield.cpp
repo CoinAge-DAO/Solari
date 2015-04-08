@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "bitcoinamountfield.h"
+#include "solariamountfield.h"
 
-#include "bitcoinunits.h"
+#include "solariunits.h"
 #include "guiconstants.h"
 #include "qvaluecombobox.h"
 
@@ -24,7 +24,7 @@ class AmountSpinBox: public QAbstractSpinBox
 public:
     explicit AmountSpinBox(QWidget *parent):
         QAbstractSpinBox(parent),
-        currentUnit(BitcoinUnits::BTC),
+        currentUnit(BitcoinUnits::SRI),
         singleStep(100000) // satoshis
     {
         setAlignment(Qt::AlignRight);
@@ -99,7 +99,7 @@ public:
 
             const QFontMetrics fm(fontMetrics());
             int h = lineEdit()->minimumSizeHint().height();
-            int w = fm.width(BitcoinUnits::format(BitcoinUnits::BTC, BitcoinUnits::maxMoney(), false, BitcoinUnits::separatorAlways));
+            int w = fm.width(BitcoinUnits::format(BitcoinUnits::SRI, BitcoinUnits::maxMoney(), false, BitcoinUnits::separatorAlways));
             w += 2; // cursor blinking space
 
             QStyleOptionSpinBox opt;
@@ -188,7 +188,7 @@ signals:
     void valueChanged();
 };
 
-#include "bitcoinamountfield.moc"
+#include "solariamountfield.moc"
 
 BitcoinAmountField::BitcoinAmountField(QWidget *parent) :
     QWidget(parent),

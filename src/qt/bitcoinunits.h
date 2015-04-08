@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_BITCOINUNITS_H
-#define BITCOIN_QT_BITCOINUNITS_H
+#ifndef SOLARI_QT_SOLARIUNITS_H
+#define SOLARI_QT_SOLARIUNITS_H
 
 #include "amount.h"
 
@@ -52,13 +52,13 @@ public:
     explicit BitcoinUnits(QObject *parent);
 
     /** Bitcoin units.
-      @note Source: https://en.bitcoin.it/wiki/Units . Please add only sensible ones
+      @note Source: https://en.solari.it/wiki/Units . Please add only sensible ones
      */
     enum Unit
     {
-        BTC,
-        mBTC,
-        uBTC
+        SRI,
+        mSRI,
+        uSRI
     };
 
     enum SeparatorStyle
@@ -124,4 +124,4 @@ private:
 };
 typedef BitcoinUnits::Unit BitcoinUnit;
 
-#endif // BITCOIN_QT_BITCOINUNITS_H
+#endif // SOLARI_QT_SOLARIUNITS_H

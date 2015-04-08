@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_CHAINPARAMSBASE_H
-#define BITCOIN_CHAINPARAMSBASE_H
+#ifndef SOLARI_CHAINPARAMSBASE_H
+#define SOLARI_CHAINPARAMSBASE_H
 
 #include <string>
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between bitcoin-cli and bitcoind)
+ * CBaseChainParams defines the base parameters (shared between solari-cli and solarid)
  * of a given instance of the Bitcoin system.
  */
 class CBaseChainParams
@@ -60,4 +60,4 @@ bool SelectBaseParamsFromCommandLine();
  */
 bool AreBaseParamsConfigured();
 
-#endif // BITCOIN_CHAINPARAMSBASE_H
+#endif // SOLARI_CHAINPARAMSBASE_H

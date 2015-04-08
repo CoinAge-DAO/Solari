@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  bitcoind The bitcoin core server.
+#  solarid The solari core server.
 #
 #
 # chkconfig: 345 80 20
-# description: bitcoind
-# processname: bitcoind
+# description: solarid
+# processname: solarid
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/bitcoind, see below
-if [ -f /etc/sysconfig/bitcoind ]; then
-        . /etc/sysconfig/bitcoind
+# you can override defaults in /etc/sysconfig/solarid, see below
+if [ -f /etc/sysconfig/solarid ]; then
+        . /etc/sysconfig/solarid
 fi
 
 RETVAL=0
 
-prog=bitcoind
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/bitcoind
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/bitcoind}
+prog=solarid
+# you can override the lockfile via SOLARID_LOCKFILE in /etc/sysconfig/solarid
+lockfile=${SOLARID_LOCKFILE-/var/lock/subsys/solarid}
 
-# bitcoind defaults to /usr/bin/bitcoind, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/bitcoind}
+# solarid defaults to /usr/bin/solarid, override with SOLARID_BIN
+solarid=${SOLARID_BIN-/usr/bin/solarid}
 
-# bitcoind opts default to -disablewallet, override with BITCOIND_OPTS
-bitcoind_opts=${BITCOIND_OPTS--disablewallet}
+# solarid opts default to -disablewallet, override with SOLARID_OPTS
+solarid_opts=${SOLARID_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $bitcoind $bitcoind_opts
+    daemon $DAEMONOPTS $solarid $solarid_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

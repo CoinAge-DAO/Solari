@@ -10,7 +10,7 @@
 #include "script/interpreter.h"
 #include "util.h"
 #include "version.h"
-#include "test/test_bitcoin.h"
+#include "test/test_solari.h"
 
 #include <iostream>
 

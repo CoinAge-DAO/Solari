@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: bitcoind.service
-Upstart: bitcoind.conf
-OpenRC:  bitcoind.openrc
-         bitcoind.openrcconf
-CentOS:  bitcoind.init
+SystemD: solarid.service
+Upstart: solarid.conf
+OpenRC:  solarid.openrc
+         solarid.openrcconf
+CentOS:  solarid.init
 
 have been made available to assist packagers in creating node packages here.
 

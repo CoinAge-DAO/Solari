@@ -1,27 +1,27 @@
-# /etc/conf.d/bitcoind: config file for /etc/init.d/bitcoind
+# /etc/conf.d/solarid: config file for /etc/init.d/solarid
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/bitcoin/bitcoin.conf"
+#SOLARID_CONFIGFILE="/etc/solari/solari.conf"
 
-# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/bitcoind"
+# What directory to write pidfile to?  (created and owned by $SOLARID_USER)
+#SOLARID_PIDDIR="/var/run/solarid"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitcoind.pid"
+#SOLARID_PIDFILE="${SOLARID_PIDDIR}/solarid.pid"
 
-# Where to write bitcoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/bitcoind"
+# Where to write solarid data (be mindful that the blockchain is large)
+#SOLARID_DATADIR="/var/lib/solarid"
 
-# User and group to own bitcoind process
-#BITCOIND_USER="bitcoin"
-#BITCOIND_GROUP="bitcoin"
+# User and group to own solarid process
+#SOLARID_USER="solari"
+#SOLARID_GROUP="solari"
 
-# Path to bitcoind executable
-#BITCOIND_BIN="/usr/bin/bitcoind"
+# Path to solarid executable
+#SOLARID_BIN="/usr/bin/solarid"
 
-# Nice value to run bitcoind under
-#BITCOIND_NICE=0
+# Nice value to run solarid under
+#SOLARID_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
-BITCOIND_OPTS="-disablewallet"
+SOLARID_OPTS="-disablewallet"
 

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_GUIUTIL_H
-#define BITCOIN_QT_GUIUTIL_H
+#ifndef SOLARI_QT_GUIUTIL_H
+#define SOLARI_QT_GUIUTIL_H
 
 #include "amount.h"
 
@@ -38,13 +38,13 @@ namespace GUIUtil
     QString dateTimeStr(qint64 nTime);
 
     // Render Bitcoin addresses in monospace font
-    QFont bitcoinAddressFont();
+    QFont solariAddressFont();
 
     // Set up widgets for address and amounts
     void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent);
     void setupAmountWidget(QLineEdit *widget, QWidget *parent);
 
-    // Parse "bitcoin:" URI into recipient object, return true on successful parsing
+    // Parse "solari:" URI into recipient object, return true on successful parsing
     bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out);
     bool parseBitcoinURI(QString uri, SendCoinsRecipient *out);
     QString formatBitcoinURI(const SendCoinsRecipient &info);
@@ -208,4 +208,4 @@ namespace GUIUtil
     
 } // namespace GUIUtil
 
-#endif // BITCOIN_QT_GUIUTIL_H
+#endif // SOLARI_QT_GUIUTIL_H

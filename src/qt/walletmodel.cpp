@@ -233,7 +233,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
             total += subtotal;
         }
         else
-        {   // User-entered bitcoin address / amount:
+        {   // User-entered solari address / amount:
             if(!validateAddress(rcp.address))
             {
                 return InvalidAddress;
@@ -291,7 +291,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
             return TransactionCreationFailed;
         }
 
-        // reject absurdly high fee > 0.1 bitcoin
+        // reject absurdly high fee > 0.1 solari
         if (nFeeRequired > 10000000)
             return AbsurdFee;
     }
@@ -322,7 +322,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(WalletModelTransaction &tran
                 rcp.paymentRequest.SerializeToString(&value);
                 newTx->vOrderForm.push_back(make_pair(key, value));
             }
-            else if (!rcp.message.isEmpty()) // Message from normal bitcoin:URI (bitcoin:123...?message=example)
+            else if (!rcp.message.isEmpty()) // Message from normal solari:URI (solari:123...?message=example)
                 newTx->vOrderForm.push_back(make_pair("Message", rcp.message.toStdString()));
         }
 

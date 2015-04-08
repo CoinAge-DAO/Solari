@@ -25,7 +25,7 @@ NO_UPNP: Don't download/build/cache packages needed for enabling upnp
 DEBUG: disable some optimizations and enable more runtime checking
 
 If some packages are not built, for example 'make NO_WALLET=1', the appropriate
-options will be passed to bitcoin's configure. In this case, --disable-wallet.
+options will be passed to solari's configure. In this case, --disable-wallet.
 
 Additional targets:
 download: run 'make download' to fetch all sources without building them

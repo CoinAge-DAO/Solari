@@ -164,8 +164,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE BITCOINY&lt;/b&gt;!⏎</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOLARIS&lt;/b&gt;!</source>
+        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE SOLARIY&lt;/b&gt;!⏎</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou aspoň &lt;b&gt;10 alebo viac náhodných znakov&lt;/b&gt;, alebo &lt;b&gt;8 alebo viac slov&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou bitcoinov pomocou škodlivého software.</translation>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your solaris from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou solariov pomocou škodlivého software.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -308,11 +308,11 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Poslať bitcoins na adresu</translation>
+        <translation>Poslať solaris na adresu</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Upraviť možnosti nastavenia pre bitcoin</translation>
+        <translation>Upraviť možnosti nastavenia pre solari</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -395,8 +395,8 @@
         <translation>Jadro Bitcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Vyžiadať platbu (vygeneruje QR kód a bitcoin: URI)</translation>
+        <source>Request payments (generates QR codes and solari: URIs)</source>
+        <translation>Vyžiadať platbu (vygeneruje QR kód a solari: URI)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -411,8 +411,8 @@
         <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Otvoriť bitcoin URI alebo výzvu k platbe</translation>
+        <source>Open a solari: URI or payment request</source>
+        <translation>Otvoriť solari URI alebo výzvu k platbe</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -760,7 +760,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Vložená adresa "%1" nieje platnou adresou bitcoin.</translation>
+        <translation>Vložená adresa "%1" nieje platnou adresou solari.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1047,7 +1047,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť bitcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation>Zvoľte ako deliť solari pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1156,8 +1156,8 @@ Adresa: %4</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nedá sa spustiť obslužný program bitcoin: click-to-pay zaplatiť kliknutím</translation>
+        <source>Cannot start solari: click-to-pay handler</source>
+        <translation>Nedá sa spustiť obslužný program solari: click-to-pay zaplatiť kliknutím</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1621,7 +1621,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie bitcoins</translation>
+        <translation>Potvrdiť odoslanie solaris</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1767,8 +1767,8 @@ Adresa: %4</translation>
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Správa ktorá bola pripojená k bitcoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Bitcoin.</translation>
+        <source>A message that was attached to the solari: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>Správa ktorá bola pripojená k solari: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Bitcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2372,7 +2372,7 @@ Adresa: %4</translation>
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solari-core</name>
     <message>
         <source>Options:</source>
         <translation>Možnosti:</translation>
@@ -2409,7 +2409,7 @@ Adresa: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2420,7 +2420,7 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>%s, musíte nastaviť rpcpassword heslo v súbore nastavení:
 %s
 Odporúča sa používať nasledujúce náhodné heslo:
-rpcuser=bitcoinrpc
+rpcuser=solarirpc
 rpcpassword=%s
 (nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo NESMÚ byť rovnaké.
@@ -2459,7 +2459,7 @@ napríklad: alertnotify=echo %%s | mail -s "Bitcoin Výstraha" admin@foo.com
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu bitcoin ani obchodovanie.</translation>
+        <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu solari ani obchodovanie.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>

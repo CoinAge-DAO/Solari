@@ -1797,7 +1797,7 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend,
                 {
                     // Fill a vout to ourself
                     // TODO: pass in scriptChange instead of reservekey so
-                    // change transaction isn't always pay-to-bitcoin-address
+                    // change transaction isn't always pay-to-solari-address
                     CScript scriptChange;
 
                     // coin control: send change to custom address
