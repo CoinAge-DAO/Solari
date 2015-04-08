@@ -58,7 +58,7 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Bitcoin Core for Linux, Windows, and OS X:
+###Build Solari Core for Linux, Windows, and OS X:
   
 	./bin/gbuild --commit solari=v${VERSION} ../solari/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../solari/contrib/gitian-descriptors/gitian-linux.yml
@@ -147,11 +147,11 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Release sticky on solaritalk: https://solaritalk.org/index.php?board=1.0
 
-  - Bitcoin-development mailing list
+  - Solari-development mailing list
 
   - Update title of #solari on Freenode IRC
 
-  - Optionally reddit /r/Bitcoin, ... but this will usually sort out itself
+  - Optionally reddit /r/Solari, ... but this will usually sort out itself
 
 - Notify BlueMatt so that he can start building [https://launchpad.net/~solari/+archive/ubuntu/solari](the PPAs)
 

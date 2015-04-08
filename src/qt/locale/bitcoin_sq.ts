@@ -113,7 +113,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>SolariGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Duke u sinkronizuar me rrjetin...</translation>

@@ -89,7 +89,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>SolariGUI</name>
     <message>
         <source>&amp;Transactions</source>
         <translation>&amp;Транзакциялар</translation>
@@ -111,7 +111,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>Solari</source>
         <translation>Биткоин</translation>
     </message>
     <message>

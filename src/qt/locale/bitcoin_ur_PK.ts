@@ -85,7 +85,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>SolariGUI</name>
     <message>
         <source>Error</source>
         <translation>نقص</translation>

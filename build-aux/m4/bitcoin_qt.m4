@@ -182,7 +182,7 @@ AC_DEFUN([SOLARI_QT_CONFIGURE],[
 
 
   dnl enable qt support
-  AC_MSG_CHECKING(whether to build Bitcoin Core GUI)
+  AC_MSG_CHECKING(whether to build Solari Core GUI)
   SOLARI_QT_CHECK([
     solari_enable_qt=yes
     solari_enable_qt_test=yes

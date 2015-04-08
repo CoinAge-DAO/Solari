@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# Copyright (c) 2014 The Bitcoin Core developers
+# Copyright (c) 2014 The Solari Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -18,7 +18,7 @@ from solarirpc.authproxy import AuthServiceProxy, JSONRPCException
 from util import *
 
 
-class BitcoinTestFramework(object):
+class SolariTestFramework(object):
 
     # These may be over-ridden by subclasses:
     def run_test(self):

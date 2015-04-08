@@ -1,5 +1,5 @@
-Bitcoin version 0.5.1 is now available for download at:
-http://sourceforge.net/projects/solari/files/Bitcoin/solari-0.5.1/
+Solari version 0.5.1 is now available for download at:
+http://sourceforge.net/projects/solari/files/Solari/solari-0.5.1/
 
 This is a bugfix-only release.
 

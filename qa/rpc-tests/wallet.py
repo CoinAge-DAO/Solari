@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# Copyright (c) 2014 The Bitcoin Core developers
+# Copyright (c) 2014 The Solari Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -18,11 +18,11 @@
 #   j) check balances - node0 should have 0, node2 should have 100
 #
 
-from test_framework import BitcoinTestFramework
+from test_framework import SolariTestFramework
 from util import *
 
 
-class WalletTest (BitcoinTestFramework):
+class WalletTest (SolariTestFramework):
 
     def setup_chain(self):
         print("Initializing test directory "+self.options.tmpdir)

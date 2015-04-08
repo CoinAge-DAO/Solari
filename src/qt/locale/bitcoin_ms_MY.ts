@@ -61,7 +61,7 @@
     <name>AskPassphraseDialog</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>SolariGUI</name>
     <message>
         <source>&amp;Options...</source>
         <translation>Pilihan</translation>

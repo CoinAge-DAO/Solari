@@ -28,7 +28,7 @@ Jonas Schnelli
 
 ### Info
 * Designer: Jonas Schnelli
-* Bitcoin Icon: (based on the original solari logo from Bitboy)
+* Solari Icon: (based on the original solari logo from Bitboy)
 * Some icons are based on Stephan Hutchings Typicons (these are under CC BY-SA license)
 * License: MIT
 

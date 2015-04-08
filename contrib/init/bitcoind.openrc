@@ -18,8 +18,8 @@ SOLARID_BIN=${SOLARID_BIN:-/usr/bin/solarid}
 SOLARID_NICE=${SOLARID_NICE:-${NICELEVEL:-0}}
 SOLARID_OPTS="${SOLARID_OPTS:-${SOLARI_OPTS}}"
 
-name="Bitcoin Core Daemon"
-description="Bitcoin crypto-currency p2p network daemon"
+name="Solari Core Daemon"
+description="Solari crypto-currency p2p network daemon"
 
 command="/usr/bin/solarid"
 command_args="-pid=\"${SOLARID_PIDFILE}\" \
@@ -80,7 +80,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Bitcoin Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Solari Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

@@ -1,12 +1,12 @@
 .TH SOLARI-CLI "1" "February 2015" "solari-cli 0.10" 
 .SH NAME
-solari-cli \- a remote procedure call client for Bitcoin Core. 
+solari-cli \- a remote procedure call client for Solari Core. 
 .SH SYNOPSIS
-solari-cli [options] <command> [params] \- Send command to Bitcoin Core. 
+solari-cli [options] <command> [params] \- Send command to Solari Core. 
 .TP
-solari-cli [options] help \- Asks Bitcoin Core for a list of supported commands.
+solari-cli [options] help \- Asks Solari Core for a list of supported commands.
 .SH DESCRIPTION
-This manual page documents the solari-cli program. solari-cli is an RPC client used to send commands to Bitcoin Core.
+This manual page documents the solari-cli program. solari-cli is an RPC client used to send commands to Solari Core.
 
 .SH OPTIONS
 .TP
@@ -20,10 +20,10 @@ Specify configuration file (default: solari.conf).
 Specify data directory.
 .TP
 \fB\-testnet\fR
-Connect to a Bitcoin Core instance running in testnet mode.
+Connect to a Solari Core instance running in testnet mode.
 .TP
 \fB\-regtest\fR
-Connect to a Bitcoin Core instance running in regtest mode (see documentation for -regtest on solarid).
+Connect to a Solari Core instance running in regtest mode (see documentation for -regtest on solarid).
 .TP
 \fB\-rpcuser=\fR<user>
 Username for JSON\-RPC connections.
@@ -38,7 +38,7 @@ Listen for JSON\-RPC connections on <port> (default: 8332 or testnet: 18332).
 Send commands to node running on <ip> (default: 127.0.0.1).
 .TP
 \fB\-rpcssl\fR=\fI1\fR
-Use OpenSSL (https) for JSON\-RPC connections (see the Bitcoin Wiki for SSL setup instructions).
+Use OpenSSL (https) for JSON\-RPC connections (see the Solari Wiki for SSL setup instructions).
 
 .SH "SEE ALSO"
 \fBsolarid\fP, \fBsolari.conf\fP

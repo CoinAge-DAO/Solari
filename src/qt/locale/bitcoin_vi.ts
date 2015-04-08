@@ -41,7 +41,7 @@
     <name>AskPassphraseDialog</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>SolariGUI</name>
     </context>
 <context>
     <name>ClientModel</name>

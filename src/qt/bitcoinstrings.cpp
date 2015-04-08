@@ -20,7 +20,7 @@ QT_TRANSLATE_NOOP("solari-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"Bitcoin Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"Solari Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("solari-core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
 "= drop tx meta data)"),
@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("solari-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("solari-core", ""
-"Cannot obtain a lock on data directory %s. Bitcoin Core is probably already "
+"Cannot obtain a lock on data directory %s. Solari Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("solari-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
@@ -128,7 +128,7 @@ QT_TRANSLATE_NOOP("solari-core", ""
 "the OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software "
 "written by Eric Young and UPnP software written by Thomas Bernard."),
 QT_TRANSLATE_NOOP("solari-core", ""
-"Unable to bind to %s on this computer. Bitcoin Core is probably already "
+"Unable to bind to %s on this computer. Solari Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("solari-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
@@ -138,7 +138,7 @@ QT_TRANSLATE_NOOP("solari-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("solari-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Bitcoin Core will not work properly."),
+"your clock is wrong Solari Core will not work properly."),
 QT_TRANSLATE_NOOP("solari-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -178,7 +178,7 @@ QT_TRANSLATE_NOOP("solari-core", "Connect only to the specified node(s)"),
 QT_TRANSLATE_NOOP("solari-core", "Connect through SOCKS5 proxy"),
 QT_TRANSLATE_NOOP("solari-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("solari-core", "Connection options:"),
-QT_TRANSLATE_NOOP("solari-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
+QT_TRANSLATE_NOOP("solari-core", "Copyright (C) 2009-%i The Solari Core Developers"),
 QT_TRANSLATE_NOOP("solari-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("solari-core", "Could not parse -rpcbind value %s as network address"),
 QT_TRANSLATE_NOOP("solari-core", "Debugging/Testing options:"),
@@ -192,7 +192,7 @@ QT_TRANSLATE_NOOP("solari-core", "Error initializing wallet database environment
 QT_TRANSLATE_NOOP("solari-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("solari-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("solari-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("solari-core", "Error loading wallet.dat: Wallet requires newer version of Bitcoin Core"),
+QT_TRANSLATE_NOOP("solari-core", "Error loading wallet.dat: Wallet requires newer version of Solari Core"),
 QT_TRANSLATE_NOOP("solari-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("solari-core", "Error"),
 QT_TRANSLATE_NOOP("solari-core", "Error: A fatal internal error occured, see debug.log for details"),
@@ -210,7 +210,7 @@ QT_TRANSLATE_NOOP("solari-core", "Imports blocks from external blk000??.dat file
 QT_TRANSLATE_NOOP("solari-core", "Include IP addresses in debug output (default: %u)"),
 QT_TRANSLATE_NOOP("solari-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("solari-core", "Information"),
-QT_TRANSLATE_NOOP("solari-core", "Initialization sanity check failed. Bitcoin Core is shutting down."),
+QT_TRANSLATE_NOOP("solari-core", "Initialization sanity check failed. Solari Core is shutting down."),
 QT_TRANSLATE_NOOP("solari-core", "Insufficient funds"),
 QT_TRANSLATE_NOOP("solari-core", "Invalid -onion address: '%s'"),
 QT_TRANSLATE_NOOP("solari-core", "Invalid -proxy address: '%s'"),
@@ -241,7 +241,7 @@ QT_TRANSLATE_NOOP("solari-core", "Password for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("solari-core", "Prepend debug output with timestamp (default: %u)"),
 QT_TRANSLATE_NOOP("solari-core", "Print block on startup, if found in block index"),
 QT_TRANSLATE_NOOP("solari-core", "Print block tree on startup (default: %u)"),
-QT_TRANSLATE_NOOP("solari-core", "RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
+QT_TRANSLATE_NOOP("solari-core", "RPC SSL options: (see the Solari Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("solari-core", "RPC server options:"),
 QT_TRANSLATE_NOOP("solari-core", "Randomly drop 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("solari-core", "Randomly fuzz 1 of every <n> network messages"),
@@ -292,7 +292,7 @@ QT_TRANSLATE_NOOP("solari-core", "Username for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("solari-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("solari-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("solari-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("solari-core", "Wallet needed to be rewritten: restart Bitcoin Core to complete"),
+QT_TRANSLATE_NOOP("solari-core", "Wallet needed to be rewritten: restart Solari Core to complete"),
 QT_TRANSLATE_NOOP("solari-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("solari-core", "Warning"),
 QT_TRANSLATE_NOOP("solari-core", "Warning: This version is obsolete, upgrade required!"),
