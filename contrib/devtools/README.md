@@ -44,10 +44,12 @@ If you run this script from src/ it will automatically update the year on the co
 .cpp and .h files if these have a git commit from the current year.
 
 For example a file changed in 2014 (with 2014 being the current year):
-```// Copyright (c) 2009-2013 The Solari Core developers```
+```// Copyright (c) 2009-2013 The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx```
 
 would be changed to:
-```// Copyright (c) 2009-2014 The Solari Core developers```
+```// Copyright (c) 2009-2014 The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx```
 
 symbol-check.py
 ==================

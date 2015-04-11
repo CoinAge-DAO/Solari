@@ -625,7 +625,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>The Solari Core developers</source>
+        <source>The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx</source>
         <translation>Распрацоўнікі Solari Core</translation>
     </message>
     <message>

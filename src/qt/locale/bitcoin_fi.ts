@@ -2024,7 +2024,8 @@ Osoite: %4</translation>
         <translation>Solari-ydin</translation>
     </message>
     <message>
-        <source>The Solari Core developers</source>
+        <source>The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx</source>
         <translation>Solari Core kehittäjät</translation>
     </message>
     <message>

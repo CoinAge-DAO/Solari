@@ -2285,7 +2285,8 @@ Adresse: %4
         <translation>Solari Core</translation>
     </message>
     <message>
-        <source>The Solari Core developers</source>
+        <source>The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx</source>
         <translation>Udviklerne af Solari Core</translation>
     </message>
     <message>

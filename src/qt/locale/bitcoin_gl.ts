@@ -1609,7 +1609,8 @@ Dirección: %4
         <translation>Core de Solari</translation>
     </message>
     <message>
-        <source>The Solari Core developers</source>
+        <source>The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx</source>
         <translation>Os desarrolladores de Solari Core</translation>
     </message>
     <message>

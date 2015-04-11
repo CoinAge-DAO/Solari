@@ -2148,7 +2148,8 @@ Address: %4
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
-        <source>The Solari Core developers</source>
+        <source>The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx</source>
         <translation>מתכנתי ליבת ביטקוין</translation>
     </message>
     <message>

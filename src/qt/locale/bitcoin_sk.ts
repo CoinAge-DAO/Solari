@@ -1932,7 +1932,8 @@ Adresa: %4</translation>
         <translation>Jadro Solari</translation>
     </message>
     <message>
-        <source>The Solari Core developers</source>
+        <source>The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx</source>
         <translation>Vývojári jadra Solari</translation>
     </message>
     <message>

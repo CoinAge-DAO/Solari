@@ -2943,7 +2943,8 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>The Solari Core developers</source>
+        <source>The Bitcoin Core Developers
+// Copyright (c) 2015 Solarminx</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
